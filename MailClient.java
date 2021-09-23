@@ -63,6 +63,7 @@ class LoginManager {
     }
 }
 
+//MailClient.java
 class MailClient {
     static Map<Integer, Map<Integer, Mail>> userIdVsSentMails = new HashMap<>();
     static Map<Integer, Map<Integer, Mail>> userIdVsInboxMails = new HashMap<>();
